@@ -22,7 +22,7 @@ body{
   border-radius: 50px;
   transition: all .8s;
 }
-.icon:hover{
+.icon:hover:nth-child(1){
   background: #e60073;
   box-shadow: 0 0 20px #e60073;
 }
@@ -35,7 +35,7 @@ body{
   box-shadow: 0 0 20px #FFC300;
 }
 .icon:hover:nth-child(4){
-  background: #1dalf2;
+  background: #1da1fe;
   box-shadow: 0 0 20px #1da1f2;
 }
 .icon i{
@@ -52,4 +52,3 @@ svg circle{
 .icon:hover svg circle{
   stroke-dasharray: 220;
 }
-
